@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+  --primary-color: #eebe16;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 4rem;
+  font-size: 17px;
+  padding-top: .5rem;
+  display: flex;
+  justify-items: left;
+  padding-left: 28rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav h1 {
+  font-size: 22px;
+  margin-top: .6rem;
+  margin-left: -1rem;
+}
+
+#image{
+  padding-top: .5rem;
+  padding-left: .5rem;
+}
+.bars {
+  margin-right: 2rem;
+  margin-left: -5.8rem;
+
+}
+.barra{
+  text-decoration: none;
+  color: #000000;
+}
+.sidebar {
+  overflow-y: hidden;
+  position: fixed;
+  width: 22rem;
+  height: 50rem;
+  background-color: #eebe16;
+}
+.sidebar h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 22px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  margin-left: 7.5rem;
+  margin-top: -4.4rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+.sidebar-menu {
+  padding-top: 3rem;
+  margin-left: 2rem;
+}
+.sidebar-menu a {
+  margin-left: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.sidebar-menu a:hover {
+  color: #eebe16;
+}
+.sidebar-menu li:hover {
+  height: 3rem;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #fff;
+}
+.sidebar-menu li {
+  padding-top: 1rem;
+  transition: .5s ease-in-out;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.search {
+  padding-top: .4rem;
+  margin-left: 2rem;
+}
+.search input {
+  outline: none;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-left: 2.5rem;
+  border: none;
+  height: 2rem;
+  width: 385px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.search i {
+  padding-top: .5rem;
+  position: absolute;
+  padding-left: 1rem;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil h3 {
+  margin-top: -.5rem;
+  padding-left: 1rem;
+}
+.perfil img {
+  margin-top: -1rem;
+  margin-left: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+#close {
+  font-size: 48px;
+}
