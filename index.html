@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/forms.css">
     <link rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <title>Painel adm</title>
@@ -13,6 +14,7 @@
 
 <body>
     <section>
+        <!--deletar a sidebar depois-->
         <div class="sidebar">
 
             <div class="logo">
@@ -20,7 +22,9 @@
             </div>
 
             <h2>Storm | ADM</h2>
+
             <div class="sidebar-menu">
+
                 <ul>
 
                     <li>
@@ -84,23 +88,37 @@
         </div>
         <main>
             <header class="nav">
+                <!--Deletar-->
                 <div class="bars">
-                  <a href="" class="barra">
-                        <i class="las la-times" id="close"></i>
+                    <a href="" class="barra">
+                        <i class="las la-times-circle" id="close"></i>
                     </a>
                 </div>
-                <h1 class="title">Painel de controle</h1>
+                <h1 class="title">Agendamento</h1>
                 <div class="search">
                     <i class="las la-search"></i>
-                    <input type="search" name="" id="" placeholder="Encontre aqui !" >
+                    <input type="search" name="" id="" placeholder="Encontre aqui !">
 
                 </div>
                 <div class="perfil">
                     <img src="./img/perfil.jpg" alt="" style=" width: 50px; height: 50px; border-radius: 100px;">
                     <h3>Peter Grifen</h3>
                 </div>
-
             </header>
+            <div class="aula"> 
+                <input type="button" value="Aulas Práticas" class="btn">
+            </div>
+           <div class="base">
+                <p>Aulas teoricas:</p>
+                <form action="" method="post">
+                    <input type="text" placeholder="Turma:" id="turma">
+                    <input type="text" id="turma" placeholder="Professor:">
+                    <input type="text" id="mat" placeholder="Materia:">
+                </form>
+             <div class="calendario">
+             
+             </div>
+            </div>
         </main>
     </section>
     <script src="./js/script.js"></script>

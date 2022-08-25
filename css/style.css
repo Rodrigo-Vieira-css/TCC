@@ -14,6 +14,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+
 .nav {
   width: 100%;
   height: 4rem;
@@ -24,32 +25,38 @@
   padding-left: 28rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .nav h1 {
   font-size: 22px;
   margin-top: .6rem;
   margin-left: -1rem;
 }
 
-#image{
+#image {
   padding-top: .5rem;
   padding-left: .5rem;
 }
+
 .bars {
   margin-right: 2rem;
   margin-left: -5.8rem;
 
 }
-.barra{
+
+.barra {
   text-decoration: none;
   color: #000000;
 }
+
 .sidebar {
-  overflow-y: hidden;
   position: fixed;
   width: 22rem;
   height: 50rem;
-  background-color: #eebe16;
+  background-color: var(--primary-color);
+
+
 }
+
 .sidebar h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -61,15 +68,19 @@
   margin-left: 7.5rem;
   margin-top: -4.4rem;
 }
+
 .logo {
   display: flex;
   align-items: center;
   margin-top: 1.8rem;
 }
+
 .sidebar-menu {
   padding-top: 3rem;
   margin-left: 2rem;
+
 }
+
 .sidebar-menu a {
   margin-left: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -77,24 +88,30 @@
   font-size: 20px;
   color: #fff;
 }
+
 .sidebar-menu a:hover {
   color: #eebe16;
 }
+
 .sidebar-menu li:hover {
+  color: #eebe16;
   height: 3rem;
   border-radius: 30px 0px 0px 30px;
   background-color: #fff;
 }
+
 .sidebar-menu li {
   padding-top: 1rem;
   transition: .5s ease-in-out;
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
+
 .search {
   padding-top: .4rem;
   margin-left: 2rem;
 }
+
 .search input {
   outline: none;
   font-size: 16px;
@@ -107,11 +124,13 @@
   border-radius: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .search i {
   padding-top: .5rem;
   position: absolute;
   padding-left: 1rem;
 }
+
 .perfil {
   display: flex;
   align-items: center;
@@ -121,6 +140,7 @@
   margin-top: -.5rem;
   padding-left: 1rem;
 }
+
 .perfil img {
   margin-top: -1rem;
   margin-left: 2rem;
@@ -128,6 +148,63 @@
   height: 50px;
   border-radius: 100px;
 }
+
 #close {
   font-size: 48px;
+}
+/*novo codigo*/
+
+.base {
+  display: flex;
+  position: absolute;
+  height: 622px;
+  width: 684px;
+  border-radius: 0px;
+  margin-left: 22.5rem;
+  margin-top: -5rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.base p {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.base form {
+  margin-top: 15rem;
+}
+
+.base input:not(.btn) {
+  margin-left: -9rem;
+  padding-left: .5rem;
+  height: 40px;
+  width: 404px;
+  margin-bottom: .5rem;
+  border: none;
+  outline: none;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  display: block;
+}
+
+.btn {
+  
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 58px;
+  width: 242px;
+  border-radius: 50px;
+  background: #EEBE16;
+  border-radius: 50px;
+}
+.aula{
+  margin-top: 3.8rem;
+  margin-left: 68rem;
 }
